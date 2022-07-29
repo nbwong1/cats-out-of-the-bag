@@ -9,8 +9,8 @@
 </head>
 <body>
     <header>
-       <h1>Cats out of the bag</h1>
-       <img>
+       <h1 id="header">Cats out of the bag</h1>
+       <img id="headerImage">
     </header>
     <div id="button-div">
         <button id="Meow-button">Meow</button>
@@ -18,10 +18,11 @@
     <div id="random-cat">
     </div>
     <div id="cat-facts">
-        <div id="random-facts">
-        </div>
-        <img id="cat-microphone">
+        <p id="random-facts"></p>  
+        <div>
+            <img id="cat-microphone" src="./assets/cat-reporter.webp">
     </div>
+</div>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="./js/catApi.js"></script>
 <script src="./js/catFacts.js"></script>
