@@ -1,3 +1,12 @@
+* {
+    margin:0;
+    padding:0;
+
+}
+
+header {
+    background-image: url("https://clipart.world/wp-content/uploads/2020/11/Paws-Print-Trail-clipart-1.png");
+}
 #button-div {
     display: flex;
     justify-content: center;
@@ -18,12 +27,18 @@
  }
 #random-cat {
     float: left;
-    width: 50%;
+    width: 45%;
+    border: 5px solid black;;
+}
+
+img {
+    max-width: 500px;
 }
 
 #cat-facts {
     float:left;
-    width: 50%;
+    width: 45%;
+   border: 5px solid pink;
 }
 
 p {
