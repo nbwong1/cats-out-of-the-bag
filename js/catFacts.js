@@ -6,6 +6,7 @@ meowButton = $("#Meow-button");
 meowButton.on("click", handleButtonClick);
 
 function handleButtonClick() {
+  $( "#random-cat" ).empty();
   fetch(factRequestUrl)
     .then(function (response) {
       return response.json();
