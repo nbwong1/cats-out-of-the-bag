@@ -21,7 +21,7 @@ function geoSearch() {
         .then(function (data) {
         catgenerator(data);
             })}
-var responseText = document.getElementById('response-text');
+//var responseText = document.getElementById('response-text');
             function catgenerator(data){
                      console.log(data[0].url)
             var randomCat = $("#random-cat")

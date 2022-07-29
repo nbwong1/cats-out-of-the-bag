@@ -1,0 +1,31 @@
+#button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Meow-button {
+    background-color: pink;
+    color: white;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 16px;
+    transition-duration: 0.4s;
+ }
+ #Meow-button:hover {
+    background-color: black;
+    color: pink;
+ }
+#random-cat {
+    float: left;
+    width: 50%;
+}
+
+#cat-facts {
+    float:left;
+    width: 50%;
+}
+
+p {
+    color: black;
+}
