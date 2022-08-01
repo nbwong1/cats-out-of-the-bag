@@ -33,4 +33,15 @@ function geoSearch() {
         }
         
        
-       
+ // event listener for button sound
+
+ $('document').ready(function () {
+    $('#Meow-button').click(function () {
+        var audio = {};
+        audio["walk"] = new Audio();
+        audio["walk"].src = ""
+        audio["walk"].addEventListener('load', function () {
+            audio["walk"].play();
+        });
+    });
+});   
