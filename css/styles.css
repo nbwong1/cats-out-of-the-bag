@@ -10,7 +10,12 @@ body {
 
 }
 
-#header { text-align: center;
+#header { 
+    text-align: center;
+    background: white;
+    background-position: center;
+    width: 500px;
+    margin-left: 400px;
     
 }
 #button-div {
