@@ -1,34 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Cats out of the bag</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-       <h1 id="header">Cats out of the bag</h1>
-       <img id="headerImage">
+      <h1 class="container" id="header">ᓚᘏᗢ Cats out of the bag ᓚᘏᗢ </h1>
+      <img id="headerImage" />
     </header>
-    <div id="button-div">
-        <button id="Meow-button">Meow</button>
+    <div class="row">
+        <div id="button-div">
+            <button id="Meow-button">Meow</button>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="container col s6 responsive-img" id="random-cat">
+
+                </div>
+
+                <div class="container col s6" id="cat-facts" style="background-color: orange">
+                    <p id="random-facts"></p>
+                    <img class="responsive-img" id="cat-microphone" src="./assets/cat-reporter.webp"/>
+                <div>
+            </div>
+        </div>
     </div>
-    <div id="random-cat">
-    </div>
-    <div id="cat-facts" style="background-color:orange ;">
-        <p id="random-facts"></p>  
-        <div>
-            <img id="cat-microphone" src="./assets/cat-reporter.webp">
-    </div>
-</div>
-<div>
-    <ul class="cat-fact-history"></ul>
-</div>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script src="./js/catApi.js"></script>
-<script src="./js/catFacts.js"></script>
-<script src="./js/script.js"></script>
-</body>
+    <footer>
+        <p class="white" >brought to you by Austin, Kiana, and Nick </p>
+        <a href="https://github.com/nbwong1/cats-out-of-the-bag">github</a>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/catApi.js"></script>
+    <script src="./js/catFacts.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
 </html>
