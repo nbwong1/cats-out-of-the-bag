@@ -1,6 +1,6 @@
 body {
     background-image: url("https://gamingtrend.com/wp-content/uploads/2018/02/neko-atsume.png");
-    height: 100%;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -12,11 +12,11 @@ body {
 
 #header { 
     text-align: center;
-    background: white;
+    background: #828486;
+    color: white;
     background-position: center;
-    width: 500px;
-    margin-left: 400px;
-    
+    width: 100%;
+    border-radius: 20px;
 }
 #button-div {
     display: flex;
@@ -37,9 +37,10 @@ body {
     color: pink;
  }
 #random-cat {
-    float: left;
-    width: 45%;
-    border: 5px solid black;;
+    display: flex;
+    border: 5px solid black;
+    justify-content: space-around;
+    background:pink;
 }
 
 img {
@@ -47,12 +48,18 @@ img {
 }
 
 #cat-facts {
-    float:left;
-    width: 45%;
    border: 5px solid pink;
    font-size: 25px;
 }
 
 p {
     color: black;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: auto;
+    height: 2.5rem; 
+    color: white;
 }
