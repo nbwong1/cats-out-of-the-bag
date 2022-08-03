@@ -53,6 +53,8 @@ img {
 }
 
 #cat-facts {
+    display: block;
+    flex-direction: row;
   border: 5px solid pink;
   font-size: 25px;
   float: right;
