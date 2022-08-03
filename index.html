@@ -6,10 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    />
-    <link
-      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
@@ -17,7 +13,7 @@
   </head>
   <body>
     <header>
-      <h1 class="container" id="header">ᓚᘏᗢ Cats out of the bag ᓚᘏᗢ </h1>
+      <h1 class="container col s12 m6" id="header">ᓚᘏᗢ Cats out of the bag ᗢᘏᓚ </h1>
       <img id="headerImage" />
     </header>
     <div class="row">
@@ -25,22 +21,24 @@
             <button id="Meow-button">Meow</button>
         </div>
 
-        <div class="container">
-            <div class="row">
-                <div class="container col s6 responsive-img" id="random-cat">
-
+        <div id="container" class="container">
+            <div class="row right" id="content-row">
+                <div class="container col s6 responsive-img" id="cat-pic-box">
+                  <div class="responsive-img" id="random-cat"></div>
                 </div>
 
-                <div class="container col s6" id="cat-facts" style="background-color: orange">
-                    <p id="random-facts"></p>
+                <div class="right container col s6" id="cat-facts">
+                  <p>Feline Facts brought to you by <span style="font-weight: bold;">Phil!</span></p>  
+                  <p id="random-facts" style="font-style:italic; color: #3f4440;"></p>
                     <img class="responsive-img" id="cat-microphone" src="./assets/cat-reporter.webp"/>
                 <div>
             </div>
         </div>
     </div>
+    
     <footer>
-        <p class="white" >brought to you by Austin, Kiana, and Nick </p>
-        <a href="https://github.com/nbwong1/cats-out-of-the-bag">github</a>
+        <p id="footer">brought to you by Austin, Kiana, and Nick | <a href="https://github.com/nbwong1/cats-out-of-the-bag">github</a></p>
+        
     </footer>
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
